@@ -1,0 +1,39 @@
+1. write a java program which calcuate the sum of even index from an integer array.
+
+
+********************************************************
+
+2.Write a java program , which will return new integer array after copy the blocks from original array
+
+//define the below static method
+
+static int[] copyArray(int[] originalArray)
+{
+
+/* write your business logic code to copy 
+ blocks from 2 index position and return new integer array */ 
+
+}
+
+
+
+************************************************************
+
+3.write a java program which will set all array elements into 0.
+
+static int[] setToZero(int[] numbers)
+{
+/*
+consider an  integer array which have value
+int num=[23,45,56,78,90}
+
+pass the above array to method 
+ then method will set all elements into zero
+
+
+*/
+
+}
+
+//call the above method from main method
+
