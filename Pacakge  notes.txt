@@ -1,0 +1,61 @@
+Pacakge is a collection  of Source code 
+in details package is container of classes, interfaces and enum
+
+Packages are used to separate our source code based on the business requirement
+
+ consider an application have many components ,so instead of grouping all components into a particular folder we can divide our components as are per the business requirement into separate package
+
+like 
+   model package---which holds plain clasess to provide the data
+   service package ---which can hold an interface to provide operation
+   dao package---which hold classes to implement business specific services
+   controller package--which provide all classes to accept request from client, process those request by communicating with other components
+
+So package is used to split our source code into separate layers
+ using package developer can maintain their source code
+
+There are two types of packages
+like
+Predefined package and user defined package
+
+1.Predifiend packages are already defined inside java library
+like,
+
+i) java.lang ---A.It is default package in java
+                B.It holds all necessarey reserved keywords
+                C.It holds Object class, String class, StringBuffer,StringBuilder class, Thread class, Exception class, System 
+
+ii.java.util package---A.It holds all utility classes like
+                        Scanner class, Date class , Calendar class,
+                         Random class
+                     B. It holds entire collection framework and Map interface and its classes
+                     C.from jdk1.8 onwards, java.util package included with lots of components and API like,Stream API,Optional classes
+
+iii.java.io package---A.it holds all abstract classes, concreate classes to read and write character and binary data from file and to file 
+                      B.It provides important classes like
+                        OutputStream ,FileOutputStream,ObjectOuputStream,InputStream,FileInputStream, ObjectInputStream,Reader, Writer FileWriter, FileReader, BufferedReader,BufferedWriter.
+
+iv.java.time package---A.It holds all necessary classes like,
+                 LocalDate, LocalTime classes to manipulate with date and time
+
+v.java.sql package--A.It holds all necessary classes and interfaces
+to communicate with database.
+                 B.It holds entire JDBC api(Application Programming Interface)
+                c.It holds classes and interfaces  like,
+                     Connection interface, Statement interface, DriverManager class, PreparedStatement interface, ResultSet interface , Callable interface e.t.c
+vi.java.net--A.To communicate with different machine it provides all important classes and interfaces 
+      like IpAddrees, Socket
+
+vii.java.awt and java.swing package---It provides all classes and interfaces to implement GUI(Graphical User interface in java)
+
+
+to use perdefined packages we use import keyword
+
+to create out user defined packages we use package keyword
+
+As per the java namming conention package name should  be declared in lowercase.
+               
+   
+
+ 
+ 
